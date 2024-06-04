@@ -1303,7 +1303,64 @@ section,
   height: 72px;
   flex-shrink: 0;
 }
+/* image feature i added */
 
+.about-area {
+  position: relative;
+}
+
+.about-img {
+  margin-bottom: 30px;
+}
+
+.about-content {
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.about-content.about-width {
+  max-width: 620px;
+  margin-right: auto;
+}
+
+.about-content span {
+  color: #ff4a35;
+  font-weight: 500;
+  line-height: 0;
+}
+
+.about-content h2 {
+  font-size: 35px;
+}
+
+.about-content p {
+  margin-top: 20px;
+}
+
+.about-content .about-btn {
+  margin-top: 31px;
+}
+
+.about-shape {
+  position: absolute;
+  top: -100px;
+  right: 0;
+  z-index: -1;
+}
+
+.about-shape img {
+  max-width: 130px;
+  height: 780px;
+}
+
+.about-shape-2 {
+  position: absolute;
+  top: 400px;
+  right: 0;
+  z-index: -1;
+}
+
+/* end */
 .services .service-item h3 {
   color: color-mix(in srgb, var(--heading-color), transparent 25%);
   font-weight: 700;
