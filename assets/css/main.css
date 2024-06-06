@@ -17,7 +17,7 @@
   --heading-color: #3e5055;
 
   /* Accent Color - This is the main accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out. */
-  --accent-color: #ff4d00;
+  --accent-color: #9900ff;
 
   /* Contrast Color - This is a color used for text when the background color is one of the heading, accent, or default colors. Its purpose is to ensure proper contrast and readability when placed over these more dominant colors. */
   --contrast-color: #ffffff;
@@ -779,7 +779,8 @@ h6 {
 # Global Page Titles & Breadcrumbs
 --------------------------------------------------------------*/
 .page-title {
-  --background-color: color-mix(in srgb, var(--default-color), transparent 96%);
+  --background-color: color-mix(in srgb, var(--default-color), transparent 86%);
+  /* background-image: url("../img/features-3.jpg"); */
   color: var(--default-color);
   background-color: var(--background-color);
   padding: 25px 0;
@@ -1221,7 +1222,10 @@ section,
 /*--------------------------------------------------------------
 # Features Details Section
 --------------------------------------------------------------*/
+
+
 .features-details .features-item+.features-item {
+  
   margin-top: 60px;
 }
 
