@@ -2076,3 +2076,30 @@ margin-top: 30px;
 border-radius: 20px;
   height: 300px;
 }
+
+
+#aboutbanner {
+  background-size: cover;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  margin-top: 90px;
+}
+
+#aboutbanner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity to make the image darker or lighter */
+  z-index: 2;
+}
+
+
+#aboutbanner p{
+  color: white;
+}
