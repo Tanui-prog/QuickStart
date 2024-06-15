@@ -43,13 +43,12 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html#hero" class="">Home</a></li>
-          <li><a href="index.html#about">About</a></li>
-          <li><a href="index.html#features">Features</a></li>
+          <li><a href="index.html" class="">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="insights.html">Insights</a></li>
           
-          <li><a href="index.html#pricing">Pricing</a></li>
           <li class="dropdown">
-            <a href="#"><span>Services</span>
+            <a href="services.html"><span>Services</span>
               <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="webservice.html">Web Development</a></li>
@@ -61,7 +60,7 @@
               <li><a href="custom.html">Custom Software Development</a></li>
             </ul>
           </li>
-          <li><a href="index.html#contact">Contact</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -72,7 +71,7 @@
 
   <main class="main">
     <!-- Hero Section -->
-    <section id="hero" class="hero section" style="padding-top: 50px">
+    <section id="hero" class="hero section" >
       <div class="container">
         <div class="row">
           <!-- Left Container -->
@@ -95,10 +94,13 @@
             </div>
           </div>
           <!-- Right Container -->
-          <div class="col-md-6 d-flex flex-column justify-content-center align-items-center">
-            <img src="assets/img/hero-services-img.webp" class="img-fluid hero-img" alt="" data-aos="zoom-out"
-              data-aos-delay="300" />
+          <div id="heroimage" class="col-md-6 d-flex flex-column justify-content-center align-items-center">
+            <!-- <img src="assets/img/A welcoming photo for Rimitech Solutions in landscape style.webp" class="img-fluid hero-img" alt="" data-aos="zoom-out"
+              data-aos-delay="300" /> -->
           </div>
+        </div>
+        <div id="downarrow" class="icon flex-shrink-0" >
+           <i class="bi bi-chevron-double-down"></i>
         </div>
       </div>
     </section>
@@ -179,7 +181,7 @@
               Building the Future, Together. We Craft Websites & Apps That
               Empower Your Business.
             </h3>
-            <p class="fst-italic">
+            <p >
               We specialize in crafting cutting-edge websites, mobile apps,
               and software solutions that propel your company towards success.
             </p>
@@ -201,7 +203,7 @@
               </li>
             </ul>
 
-            <a href="#" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+            <a href="about.html#aboutbanner"><i style="font-size: 30px;" id="redmorehome" class="bi bi-arrow-right"></i></a>
           </div>
 
           <div class="col-lg-6 about-images" data-aos="fade-up" data-aos-delay="200">
@@ -948,15 +950,15 @@
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
           <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">QuickStart</span>
+            <span class="sitename">Rimiatech Solutions</span>
           </a>
           <div class="footer-contact pt-3">
             <p>A108 Adam Street</p>
             <p>New York, NY 535022</p>
             <p class="mt-3">
-              <strong>Phone:</strong> <span>+1 5589 55488 55</span>
+              <strong>Phone:</strong> <span>+254702768324</span>
             </p>
-            <p><strong>Email:</strong> <span>info@example.com</span></p>
+            <p><strong>Email:</strong> <span>info@rimiatechsolutions.tech</span></p>
           </div>
           <div class="social-links d-flex mt-4">
             <a href=""><i class="bi bi-twitter-x"></i></a>
@@ -969,9 +971,9 @@
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Useful Links</h4>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Services</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="services.html">Services</a></li>
             <li><a href="#">Terms of service</a></li>
             <li><a href="#">Privacy policy</a></li>
           </ul>
@@ -980,11 +982,12 @@
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Our Services</h4>
           <ul>
-            <li><a href="#">Web Design</a></li>
-            <li><a href="#">Web Development</a></li>
-            <li><a href="#">Product Management</a></li>
-            <li><a href="#">Marketing</a></li>
-            <li><a href="#">Graphic Design</a></li>
+            <li><a href="webservice.html">Web Development</a></li>
+              <li><a href="Ui-details.html">UI and UX Design</a></li>
+              <li><a href="consulting.html">IT Consulting</a></li>
+              <li><a href="support.html">Technical Support</a></li>
+              <li><a href="cloud-details.html">Cloud Solutions</a></li>
+              <li><a href="custom.html">Custom Software Development</a></li>
           </ul>
         </div>
 
@@ -1012,13 +1015,10 @@
       <p>
         © <span>Copyright</span>
         <strong class="px-1 sitename">Rimiatech</strong>Solutions<span>All Rights Reserved</span>
-      </p>
-      <div class="credits">
-       
-        Designed by Rimiatech solutions</a>
-      </div>
+    
     </div>
   </footer>
+
 
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
@@ -1033,6 +1033,13 @@
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script>
+    document.getElementById('downarrow').addEventListener('click', function() {
+    document.getElementById('featured-services').scrollIntoView({ behavior: 'smooth' });
+
+  
+    })
+  </script>
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>

@@ -164,3 +164,8 @@
   document.addEventListener('scroll', navmenuScrollspy);
 
 })();
+
+
+
+// scroll view on icon clicked 
+
