@@ -2079,7 +2079,7 @@ border-radius: 20px;
 
 
 #aboutbanner {
-  background-image: url("../img/nasa-Q1p7bh3SHj8-unsplash.jpg");
+  background-image: url("../img/josh-calabrese-XXpbdU_31Sg-unsplash\(1\).jpg");
   background-size: cover;
   position: fixed;
   height: 100%;
@@ -2166,4 +2166,11 @@ border-radius: 20px;
   position: relative;
   z-index: 1;
   
+}
+
+.partners{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
 }
