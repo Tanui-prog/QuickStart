@@ -781,11 +781,11 @@ h6 {
 --------------------------------------------------------------*/
 .page-title {
   --background-color: color-mix(in srgb, var(--default-color), transparent 86%);
-  /* background-image: url("../img/features-3.jpg"); */
   color: var(--default-color);
   background-color: var(--background-color);
   padding: 25px 0;
   position: relative;
+  margin-top: 90px;
 }
 
 .page-title h1 {
@@ -798,7 +798,7 @@ h6 {
   flex-wrap: wrap;
   list-style: none;
   padding: 0;
-  margin: 0;
+  
   font-size: 14px;
 }
 
@@ -997,6 +997,8 @@ section,
 .featured-services {
   --background-color: color-mix(in srgb, var(--accent-color), transparent 94%);
   padding: 40px 0;
+  font-family: var(--heading-font);
+
 }
 
 .featured-services .service-item {
@@ -1054,6 +1056,7 @@ section,
 # About Section
 --------------------------------------------------------------*/
 .about {
+  font-family: var(--heading-font);
   padding-bottom: 20px;
 }
 
@@ -1126,6 +1129,7 @@ section,
 # Clients Section
 --------------------------------------------------------------*/
 .clients {
+  
   padding: 20px 0;
 }
 
@@ -1226,7 +1230,8 @@ section,
 
 
 .features-details .features-item+.features-item {
-  
+  font-family: var(--heading-font);
+
   margin-top: 60px;
 }
 
@@ -1485,6 +1490,8 @@ section,
   font-size: 14px;
   margin-bottom: 0;
 }
+
+
 
 /*--------------------------------------------------------------
 # Pricing Section
@@ -1945,6 +1952,7 @@ section,
 # Service Details Section
 --------------------------------------------------------------*/
 .service-details .service-box {
+  font-family: var(--heading-font);
   padding: 20px;
   box-shadow: 0px 2px 20px color-mix(in srgb, var(--default-color), transparent 88%);
 }
@@ -2070,6 +2078,12 @@ section,
   margin-right: 8px;
   color: var(--accent-color);
 }
+.service-details img{
+  border-radius: 15px;
+  width: 100%;
+
+
+}
 
 #imagecustom{
   align-items: center;
@@ -2088,6 +2102,14 @@ border-radius: 20px;
   position: relative;
   z-index: 1;
   margin-top: 90px;
+  font-family: var(--heading-font);
+
+
+}
+
+#insights-details{
+  margin-top: 90px;
+  font-family: var(--heading-font);
 
 }
 
@@ -2266,4 +2288,11 @@ border-radius: 20px;
   padding: 40px;
  font-family: var(--heading-font);
   
+}
+#whyuneed{
+  margin-top: 70px;
+  padding: 40px;}
+
+#servicedetail{
+  font-family: var(--heading-font);
 }
