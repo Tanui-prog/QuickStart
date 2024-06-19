@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
 :root {
   --default-font: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -2171,7 +2172,9 @@ border-radius: 20px;
   margin-bottom: 20px;
 }
 #aboutus{
-  background: #f8f9fa;
+  background: #eaedf0;
+  font-family: var(--heading-font);
+
 }
 #aboutus h3{
   margin-bottom: 30px;
@@ -2188,14 +2191,26 @@ border-radius: 20px;
 
 }
 
+
+
 .journeyitems img{
-  /* height: 130px; */
+  height: 130px;
   border-radius: 15px;
   width: 160px;
+  margin-top: 2rem;
 }
 .journeyitems p{
   font-family: var(--heading-font);
   padding: 9px;
+}
+
+@media screen and (max-width: 700px) {
+  #brand img{
+    height: 150px;
+
+  }
+
+  
 }
 
 .journeyitems i{
@@ -2203,6 +2218,7 @@ border-radius: 20px;
   color: var(--accent-color);
   
 }
+
 #brand{
   background-color: white;
   padding: 20px;
@@ -2212,8 +2228,42 @@ border-radius: 20px;
 #brand img{
   border-radius: 15px;
   width: 100%;
-  height: 180px;
+  height: 200px;
 }
 #brand .col-lg-4{
   padding: 9px;
+  
+}
+#brand h4{
+  padding-top: 9px;
+  font-family:  "Great Vibes" ;
+}
+
+#brand .brand-logo{
+  background-color: #d4d8df;
+  margin-top: 50px;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+#brand .brand-logo img{
+  border-radius: 15px;
+  width: 100%;
+  height: 200px;
+}
+
+#brand .brand-logo p{
+ 
+  font-family: var(--heading-font);
+
+  padding-top: 9px;
+  
+}
+
+#nonprofit{
+  margin-top: 60px;
+  background: #eaedf0;
+  padding: 40px;
+ font-family: var(--heading-font);
+  
 }
