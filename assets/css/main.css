@@ -1059,7 +1059,14 @@ section,
   font-family: var(--heading-font);
   padding-bottom: 20px;
 }
+#about{
+  margin-top: 30px;
+}
+#about img{
+  width: 100%;
+  height: 100%;
 
+}
 .about .content .who-we-are {
   text-transform: uppercase;
   margin-bottom: 15px;
@@ -1238,7 +1245,7 @@ section,
 .features-details .features-item .content {
   background-color: color-mix(in srgb, var(--accent-color), transparent 95%);
   color: color-mix(in srgb, var(--default-color), transparent 40%);
-  padding: 50px;
+  padding: 18px;
   border-radius: 10px;
 }
 
@@ -2220,6 +2227,7 @@ border-radius: 20px;
   border-radius: 15px;
   width: 160px;
   margin-top: 2rem;
+  
 }
 .journeyitems p{
   font-family: var(--heading-font);
@@ -2232,11 +2240,16 @@ border-radius: 20px;
 
   }
 
+
+  .journeyitems img{
+    display: none;
+  }
+
   
 }
 
 .journeyitems i{
-  padding: 9px;
+  font-size: 30px;
   color: var(--accent-color);
   
 }
@@ -2259,6 +2272,7 @@ border-radius: 20px;
 #brand h4{
   padding-top: 9px;
   font-family:  "Great Vibes" ;
+  font-size: 30px;
 }
 
 #brand .brand-logo{
@@ -2295,4 +2309,55 @@ border-radius: 20px;
 
 #servicedetail{
   font-family: var(--heading-font);
+}
+#development{
+  margin-top: 20px;
+}
+#nonprofit .container{
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+  font-family: var(--heading-font);
+}
+#nonprofit a{
+  color: var(--accent-color);
+  font-size: 20px;
+  margin-top: 30px;
+  
+
+}
+
+@media screen and (max-width:900px)  {
+
+  #development2{
+    display: none;  
+  }
+  #development3{
+    display: none;
+  }
+  #nonprofit{
+    padding: 9px;
+  }
+  #nonprofit img{
+    height: 260px;
+  }
+  #nonprofit a{
+  color: red;
+  padding-top: 30px;
+  }
+  #contcta{
+    margin-top: 30px;
+  }
+  #adoptioncard  .service-item{
+
+    background-color: rgb(255, 255, 255);
+    padding-left: 9px;
+    padding-right: 3px;
+
+  }
+  #adoptioncard  h3{
+    font-size: 20px;
+    
+
+  }
 }
