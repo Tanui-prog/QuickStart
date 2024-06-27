@@ -55,12 +55,12 @@
   /**
    * Preloader
    */
-  // const preloader = document.querySelector('#preloader');
-  // if (preloader) {
-  //   window.addEventListener('load', () => {
-  //     preloader.remove();
-  //   });
-  // }
+  const preloader = document.querySelector('#preloader');
+  if (preloader) {
+    window.addEventListener('load', () => {
+      preloader.remove();
+    });
+  }
 
   /**
    * Scroll top button
@@ -94,7 +94,7 @@
       mirror: false
     });
   }
-  // window.addEventListener('load', aosInit);
+  window.addEventListener('load', aosInit);
 
   /**
    * Initiate glightbox
