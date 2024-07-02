@@ -2165,7 +2165,14 @@ border-radius: 20px;
   background-size: cover;
   position: relative;
   z-index: 1;
+  border-radius: 9px;
   
+  
+}
+#hero{
+  background-image: url(../img/banneerinsight.webp);
+  background-size: cover;
+  background-position: center;
 }
 
 .partners{
