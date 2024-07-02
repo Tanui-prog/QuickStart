@@ -2169,10 +2169,13 @@ border-radius: 20px;
   
   
 }
+
+
 #hero{
   background-image: url(../img/banneerinsight.webp);
   background-size: cover;
   background-position: center;
+  height: 650px;
 }
 
 .partners{
