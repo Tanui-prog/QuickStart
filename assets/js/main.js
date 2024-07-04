@@ -144,8 +144,8 @@
   /**
    * Navmenu Scrollspy
    */
-  let navmenulinks = document.querySelectorAll();
-
+  let navmenulinks = document.querySelectorAll('.navmenu a');
+  
   function navmenuScrollspy() {
     navmenulinks.forEach(navmenulink => {
       if (!navmenulink.hash) return;
