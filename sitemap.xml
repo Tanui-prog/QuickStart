@@ -1,73 +1,58 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!--  created with Free Online Sitemap Generator www.prepostseo.com  -->
 <url>
-  <loc>https://www.rimiatechsolutions.tech/</loc>
-  <lastmod>2024-06-27T06:33:09+00:00</lastmod>
-  <priority>1.00</priority>
+<loc>https://www.rimiatechsolutions.tech</loc>
+<changefreq>always</changefreq>
+<priority>1</priority>
 </url>
 <url>
-  <loc>https://www.rimiatechsolutions.tech/index.html</loc>
-  <lastmod>2024-06-27T06:33:09+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://www.rimiatechsolutions.tech/index.html</loc>
+<changefreq>always</changefreq>
+<priority>0.9</priority>
 </url>
 <url>
-  <loc>https://www.rimiatechsolutions.tech/about.html</loc>
-  <lastmod>2024-06-27T06:33:09+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://www.rimiatechsolutions.tech/about.html</loc>
+<changefreq>always</changefreq>
+<priority>0.9</priority>
 </url>
 <url>
-  <loc>https://www.rimiatechsolutions.tech/insights.html</loc>
-  <lastmod>2024-06-27T06:33:09+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://www.rimiatechsolutions.tech/insights.html</loc>
+<changefreq>always</changefreq>
+<priority>0.9</priority>
 </url>
 <url>
-  <loc>https://www.rimiatechsolutions.tech/webservice.html</loc>
-  <lastmod>2024-06-27T06:33:09+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://www.rimiatechsolutions.tech/webservice.html</loc>
+<changefreq>always</changefreq>
+<priority>0.9</priority>
 </url>
 <url>
-  <loc>https://www.rimiatechsolutions.tech/Ui-details.html</loc>
-  <lastmod>2024-06-27T06:33:09+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://www.rimiatechsolutions.tech/Ui-details.html</loc>
+<changefreq>always</changefreq>
+<priority>0.9</priority>
 </url>
 <url>
-  <loc>https://www.rimiatechsolutions.tech/consulting.html</loc>
-  <lastmod>2024-06-27T06:33:09+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://www.rimiatechsolutions.tech/consulting.html</loc>
+<changefreq>always</changefreq>
+<priority>0.9</priority>
 </url>
 <url>
-  <loc>https://www.rimiatechsolutions.tech/support.html</loc>
-  <lastmod>2024-06-27T06:33:09+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://www.rimiatechsolutions.tech/support.html</loc>
+<changefreq>always</changefreq>
+<priority>0.9</priority>
 </url>
 <url>
-  <loc>https://www.rimiatechsolutions.tech/cloud-details.html</loc>
-  <lastmod>2024-06-27T06:33:09+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://www.rimiatechsolutions.tech/cloud-details.html</loc>
+<changefreq>always</changefreq>
+<priority>0.9</priority>
 </url>
 <url>
-  <loc>https://www.rimiatechsolutions.tech/custom.html</loc>
-  <lastmod>2024-06-27T06:33:09+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://www.rimiatechsolutions.tech/custom.html</loc>
+<changefreq>always</changefreq>
+<priority>0.9</priority>
 </url>
 <url>
-  <loc>https://www.rimiatechsolutions.tech/contact.html</loc>
-  <lastmod>2024-06-27T06:33:09+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://www.rimiatechsolutions.tech/contact.html</loc>
+<changefreq>always</changefreq>
+<priority>0.9</priority>
 </url>
-
-<url>
-  <loc>https://www.rimiatechsolutions.tech/assets/course-catalog.pdf</loc>
-  <lastmod>2024-06-27T06:33:09+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-
-
 </urlset>
